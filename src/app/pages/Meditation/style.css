@@ -1,0 +1,36 @@
+
+.col-xs-5-cols,
+.col-sm-5-cols,
+.col-md-5-cols,
+.col-lg-5-cols {
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.col-xs-5-cols {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-5-cols {
+      width: 20%;
+      float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-5-cols {
+      width: 20%;
+      float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-5-cols {
+      width: 20%;
+      float: left;
+  }
+}
